@@ -1,0 +1,23 @@
+return {}
+-- return {
+--   -- Modify nvim-dap
+--   {
+--     "mfussenegger/nvim-dap",
+--     dependencies = {
+--       "mfussenegger/nvim-dap-python",
+--       config = function()
+--         require("dap-python").setup(LazyVim.get_pkg_path("debugpy", "venv/bin/python"))
+--       end,
+--     },
+--   },
+--
+--   -- Mason-nvim-dap
+--   {
+--     "jay-babu/mason-nvim-dap.nvim",
+--     opts = function(_, opts)
+--       vim.list_extend(opts.ensure_installed, {
+--         "python",
+--       })
+--     end,
+--   },
+-- }
